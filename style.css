@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url("./img1.jpg") no-repeat;
+    background-size: cover;
+}
+.range_ipt{
+    display: block;
+    width: 300px;
+    background: white;
+}
+.ipt_con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.ipt_con > *{
+    margin: 0 10px;
+}
+.dom{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: crimson;
+    border-radius: 50%;
+    cursor: move;
+}
+
+.sele{
+    width: 250px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 1px solid #D8D1D6;
+    font-family: Arial;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #D8D1D6;
+    border-radius: 5px;
+    background: white;
+    font-family: Arial;
+    transition: all 0.3s;
+}
+button:hover{
+    background: crimson;
+    color: white;
+}
